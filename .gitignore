@@ -1,0 +1,6 @@
+*.suo
+*.db
+*.opendb
+*.ipch
+*.filters
+*.user
