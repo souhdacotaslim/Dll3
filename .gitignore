@@ -4,3 +4,9 @@
 *.ipch
 *.filters
 *.user
+*.log
+*.obj
+*.tlog
+*.lastbuildstate
+*.idb
+*.pdb
