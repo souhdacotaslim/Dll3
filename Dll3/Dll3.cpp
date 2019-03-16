@@ -1,6 +1,19 @@
-﻿// Dll3.cpp : Определяет экспортированные функции для приложения DLL.
-//
+﻿#include "stdafx.h"
+#include <iostream>
 
-#include "stdafx.h"
+using namespace std;
 
+extern "C" __declspec(dllexport) void name()
+{
+	cout << "Andrey";
+}
 
+extern "C" __declspec(dllexport) void surname()
+{
+	cout << "Demidov";
+}
+
+extern "C" __declspec(dllexport) void group()
+{
+	cout << "Ri-541216";
+}
